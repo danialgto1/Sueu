@@ -1,0 +1,13 @@
+/** @format */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.button {
+  @apply justify-center px-3 transition  lg:px-7 py-2 text-white rounded-lg hover:shadow-lg  bg-primary/80;
+}
+
+.button-primary {
+  @apply justify-center py-2 px-3 lg:px-7  rounded-lg transition border border-black shadow-sm hover:shadow-lg text-slate-800;
+}
