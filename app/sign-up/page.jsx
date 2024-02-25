@@ -13,7 +13,10 @@ const TextInput = ({ id, labelText, type = "text", placeholder }) => {
         id={id}
         placeholder={placeholder}
         aria-label={labelText}
-        className="w-full bg-white/0 px-2"
+        className="w-full bg-white/0 px-2 focus:outline-none focus:ring-sky-500
+        disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+        invalid:border-pink-500 invalid:text-pink-600
+        focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
       />
     </div>
   );
